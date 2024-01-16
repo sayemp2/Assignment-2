@@ -89,6 +89,8 @@ body {
 
 .menu {
     display: none;
+    height: 50px;
+    width: 50px;
 }
 
 /* banner style section */
@@ -410,7 +412,6 @@ video {
     display: flex;
     justify-content: space-between;
     margin-top: 100px;
-    margin-bottom: 100px;
 }
 
 .Newsletter-section .secction-tittle {
@@ -471,7 +472,8 @@ video {
 }
 
 .Discount-btn {
-    width: 20.25rem;
+    width: 100%;
+    max-width: 20.25rem;
     height: 7.5rem;
     transform: rotate(-19.628deg);
     border-radius: 16px;
@@ -501,6 +503,9 @@ video {
 }
 
 /* footer style section */
+hr{
+    margin-top: 100px;
+}
 .footer {
     display: flex;
     flex-direction: column;
@@ -556,7 +561,7 @@ video {
 
     .input,
     .find-now,
-    .popular-content {
+    .popular-content, hr {
         width: auto;
         margin-top: 16px;
     }
