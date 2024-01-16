@@ -166,6 +166,11 @@ body {
     line-height: 26px;
 }
 
+.popular-place img {
+    width: 100%;
+    max-width: 540px;
+}
+
 /* destination style section */
 .destination-section {
     text-align: center;
@@ -246,14 +251,15 @@ body {
 }
 
 /* service  style section  */
-.service-section{
+.service-section {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     margin-top: 100px;
 }
-.service{
+
+.service {
     width: 25rem;
     height: 15rem;
     border-radius: 1rem;
@@ -263,17 +269,20 @@ body {
     margin-right: 28px;
     margin-bottom: 28px;
 }
-.service-section>.primary-discription{
+
+.service-section>.primary-discription {
     color: rgba(19, 19, 24, 0.70);
     text-align: center;
     margin-bottom: 48px;
     width: 40rem;
 }
-.row{
+
+.row {
     display: flex;
     justify-content: space-between;
 
 }
+
 .service img {
     height: 4rem;
     width: 4rem;
@@ -284,31 +293,274 @@ body {
     font-size: 24px;
     font-weight: 800;
 }
-.service .primary-discription{
+
+.service .primary-discription {
     color: #131318;
+}
+
+/* Deal section style  */
+.deals-section>.secction-tittle {
+    text-align: center;
+}
+
+.deals-section>.primary-btn {
+    text-align: center;
+}
+
+.deals-section>p {
+    margin: 0 auto 3rem;
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.deal {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 20px;
+    margin-bottom: 1.25rem;
+}
+
+.deal-1 {
+    background-image: url(../Images/Group\ 40.png);
+    display: flex;
+    justify-content: flex-end;
+}
+
+.deal-2 {
+    background-image: url(../Images/Group\ 39.png);
+}
+
+.deal-3 {
+    background-image: url(../Images/Group\ 40.png);
+    display: flex;
+    justify-content: flex-end;
+}
+
+.deal-content {
+    width: 32rem;
+    height: 20rem;
+    border-radius: 16px;
+    border: 2px solid #FFF;
+    background: rgba(255, 255, 255, 0.80);
+    backdrop-filter: blur(2.5px);
+    padding: 50px;
+}
+
+.deal-content h3 {
+    color: #FF5400;
+}
+
+.deal-content .secction-tittle {
+    margin: 1.5rem 0 1rem 0;
+}
+
+.deal-detail {
+    display: flex;
+    align-items: center;
+}
+
+.deal-detail p {
+    padding-right: 20px;
+    padding-left: 5px;
+    margin: 0;
+}
+
+/* video style section */
+
+.video-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.video-content {
+    width: 100%;
+    max-width: 33rem;
+}
+
+.video-content .secction-tittle {
+    margin-bottom: 1.5rem;
+}
+
+.video-content p {
+    margin-bottom: 1.5rem;
+}
+
+.video-section ul li {
+    font-weight: 700;
+    color: #131318;
+    margin-bottom: 1rem;
+}
+
+.video-content .primary-btn {
+    margin-top: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+video {
+    border-radius: 1rem;
+}
+
+/* Newsletter section style */
+.Newsletter-section {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+
+}
+
+.Newsletter-section .secction-tittle {
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.Newsletter-section p {
+    color: #131318;
+    text-align: center;
+    margin-top: 0;
+}
+
+.form-section {
+    width: 30%;
+    height: 26rem;
+    border-radius: 16px;
+    border: 1px solid #FF5400;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 0 3rem;
+}
+
+.input-fild {
+    display: block;
+    width: 100%;
+    max-width: 23rem;
+    height: 3rem;
+    border-radius: 8px;
+    border: none;
+    background: rgba(19, 19, 24, 0.05);
+    color: rgba(19, 19, 24, 0.30);
+    font-size: 1rem;
+    font-weight: 400;
+    padding: 1.2rem 1rem;
+}
+
+.form-section .primary-btn {
+    width: 25rem;
+    height: 4rem;
+    padding: 1.2rem 1rem;
+    color: #FFF;
+    font-size: 1.2rem;
+    font-weight: 800;
+}
+
+.Discount-section {
+    width: 60%;
+    height: 30rem;
+    position: relative;
+}
+
+.Discount-section img {
+    max-width: 670px;
+    width: 100%;
+}
+
+.Discount-btn {
+    width: 20.25rem;
+    height: 7.5rem;
+    transform: rotate(-19.628deg);
+    border-radius: 16px;
+    background: #FF5400;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    bottom: 110px;
+    right: 5px;
+}
+
+.Discount-btn p {
+    color: #FFF;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin-bottom: 0;
+    margin-top: 10px;
+}
+
+.Discount-btn h3 {
+    color: #FFF;
+    font-size: 2rem;
+    font-weight: 800;
+    margin-top: 0;
+}
+
+/* footer style section */
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: rgba(19, 19, 24, 0.05);
+}
+
+.footer .primary-discription {
+    color: #5A5A5D;
+    text-align: center;
+    max-width: 700px;
+    width: 100%;
+}
+
+.media-box a {
+    color: #131318;
+    font-size: 2rem;
+    padding: 1.6rem;
+}
+
+.copy-right {
+    color: #131318;
+    font-size: 16px;
+    font-weight: 300;
+    margin-top: 6.25rem;
 }
 
 @media screen and (max-width:600px) {
 
     .search-box,
-    .popular-section, .row {
+    .popular-section,
+    .row,
+    .video-section,
+    .Newsletter-section {
         flex-direction: column;
+        align-items: center;
     }
 
     .conteiner {
-        padding:0 1.2rem;
+        padding: 0 2rem;
     }
-    .service, .service-section>.primary-discription, .popular-place img, .destination-section .primary-discription{
+
+    .service,
+    .service-section>.primary-discription,
+    .popular-place img,
+    .destination-section .primary-discription,
+    .deal,
+    .Discount-section {
         width: 100%;
-        margin:0;
-        height: 100%;
+        margin: 0;
     }
+
     .input,
     .find-now,
     .popular-content {
         width: auto;
         margin-top: 16px;
     }
+
     .menu {
         display: block;
         font-size: 1.5rem;
@@ -324,4 +576,34 @@ body {
         grid-template-columns: repeat(1, 1fr);
     }
 
+    .deal-content {
+        width: 50%;
+        height: 50%;
+    }
+
+    .deal-detail {
+        flex-wrap: wrap;
+    }
+
+    .form-section {
+        margin-bottom: 1rem;
+        margin-top: 1.5rem;
+    }
+
+    .form-section {
+        width: 70%;
+    }
+
+    video {
+        width: 335px;
+        height: 200px;
+    }
+
+    .Discount-section img {
+        width: 100%;
+    }
+
+    .Discount-btn {
+        bottom: 160px;
+    }
 }
