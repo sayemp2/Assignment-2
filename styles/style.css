@@ -302,10 +302,14 @@ body {
 }
 
 /* Deal section style  */
+
 .deals-section>.secction-tittle {
     text-align: center;
 }
-
+.deal-btn{
+    display: flex;
+    justify-content: center;
+}
 .deals-section>.primary-btn {
     text-align: center;
 }
